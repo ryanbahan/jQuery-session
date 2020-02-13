@@ -71,15 +71,24 @@ The [docs](https://learn.jquery.com/using-jquery-core/document-ready/) are a hel
 ## Questions
 1. What terminal command would you use to bring jQuery in via npm?
 
+NPM install.
+
 2. After you have jQuery brought in as a dependency, how would you access it in a JavaScript file? (think about how we bring `chai` into a project)
+
+Require or import syntax.
 
 3. Why would we bring in jQuery as a `dependency` rather than a `devDependency`?
 
+Because it needs to be used in the browser as well as for development.
+
 4. Looking at the documentation, what does `.addClass()` do?
+
+Adds a specified class to an item(s).
 
 ## Exercises:
 
 Let's get some basic practice with jQuery.
+
 1. Navigate into the `intro-exercise` directory. jQuery is included in this project via the CDN.
 2. In the `intro.js` file, use jQuery to select the span element and:
   1. change the span's text to say '1911'
